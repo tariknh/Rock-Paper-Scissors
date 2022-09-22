@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+#optionContainer{
+    display: flex;
+    gap: 2em;
+}
+button{
+    height: 7em;
+    width: 7em;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+    background-color:aliceblue;
+}
+.tie{
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 76%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+.win{
+    background: radial-gradient(circle, rgba(34,193,195,1) 0%, rgba(166,253,45,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+#scoreCount{
+    width: 20em;
+    height: 8em;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 8em;
+    padding-left: 8em;
+}
+.scoreBox{
+    width: 5em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 4rem;
+    font-family: sans-serif;
+    color:crimson;
+}
+h3{
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: sans-serif;
+    color:crimson;
+}
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.lose{
+    background: radial-gradient(circle, rgba(251,63,63,1) 0%, rgba(252,138,70,1) 86%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2rem;
+}
+#result{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Poppins",sans-serif;
+    border-radius: 10px;
+    padding: 0.2em;
+    margin: 1em;
+}
